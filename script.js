@@ -1,6 +1,6 @@
 (function ($) {
   Drupal.behaviors.exampleModule = {
-    attach: function(context, settings) {$.backstretch("http://c50.encq.be/sites/all/themes/encq/images/fond-encq.jpg", {speed: 100});
+    attach: function(context, settings) {$.backstretch("http://c50.encq.be/sites/all/themes/encq/images/fond-encq-1632.jpg", {speed: 100});
 	$(document).ready(function(){
 
 	//Set default open/close settings
