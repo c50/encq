@@ -1,2 +1,9 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+div #wrap{z-index:auto !important;margin-bottom:20px;}
+#wrap div.mousetrap{z-index:100 !important;}
+
+a {color: rgb(96, 96, 96)};
+
+a:link, a:visited {color: rgb(206, 195, 37)};
