@@ -16,6 +16,8 @@
   <link href='http://fonts.googleapis.com/css?family=Exo:100,200,400' rel='stylesheet' type='text/css'>
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  <script type="text/javascript" src="//use.typekit.net/ktd5qnd.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 
 
