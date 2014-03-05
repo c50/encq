@@ -28,6 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: Tahoma, Geneva, sans-serif;
 }
 
-h1.page-title, h2.node-title {
+h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.title, h2#node-title.title {
 	font-family: "adobe-text-pro", sans-serif;
+	color: #ffffff;
 } 
