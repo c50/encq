@@ -27,3 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
   font-family: Tahoma, Geneva, sans-serif;
 }
+
+h1.page-title, h2.node-title {
+	font-family: "adobe-text-pro", sans-serif;
+} 
