@@ -29,6 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.title, h2#node-title.title {
-	font-family: "adobe-text-pro", sans-serif;
+	font-family: "freight-micro-pro", serif;
 	color: #ffffff;
 } 
+
+p {font-family: "ff-ernestine-web-pro", serif;}
