@@ -71,7 +71,7 @@ div.region-menu #menu-navigation li a {
     -webkit-border-radius:3px;
     -moz-border-radius:3px;   
     border-radius:3px;
-    behavior: url(/sites/all/themes/encq/PIE.htc);
+    behavior: url(/sites/all/libraries/PIE/PIE.php);
 }
 div.region-menu #menu-navigation li a:hover {
     background:none;
@@ -99,7 +99,7 @@ div.region-menu #menu-navigation li ul {
     -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
     box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.2);
     border: 1px solid transparent;
-    behavior: url(/sites/all/themes/encq/PIE.htc);
+    behavior: url(/sites/all/libraries/PIE/PIE.php);
 }
 div.region-menu #menu-navigation li ul li {
     padding: 10px 0px 0;
