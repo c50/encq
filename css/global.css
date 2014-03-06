@@ -45,3 +45,116 @@ img#logo {margin:1em 0;}
 /* semi transparent background, #main for maintenance screen */
 div#zone-content-wrapper, div#main {background-color: rgba(255, 255, 255, 0.48);}
 
+/*****************************************************************************************
+ *****                            TOGGLE  NAVIGATION                                                              *****
+ *****************************************************************************************/
+.menu-toggle {
+      color: #ffffff;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+      background-color: #0e0e0e;
+      *background-color: #040404;
+      background: -moz-linear-gradient(top, #151515, #040404);
+      background: -webkit-gradient(linear, 0 0, 0 100%, from(#151515), to(#040404));
+      background: -webkit-linear-gradient(top, #151515, #040404);
+      background: -o-linear-gradient(top, #151515, #040404);
+      background: linear-gradient(to bottom, #151515, #040404);
+      -pie-background: linear-gradient(to bottom, #151515, #040404);
+      border-color: #040404 #040404 #000000;
+      border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+      border: 1px solid #226889;
+      -webkit-border-radius: 4px;
+         -moz-border-radius: 4px;
+           border-radius: 4px;
+      clip: inherit;
+      display: block;
+      margin: 0;
+      padding: 4px 10px 7px 10px;
+      position: absolute;
+      right: 0;
+      bottom:10px;
+      clear:both;
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+         -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);
+           box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.075);  
+        behavior: url(/sites/all/themes/mysubthemename/PIE.htc);
+}
+a.menu-toggle {
+    text-decoration:none;
+}
+.menu-toggle .line {
+      display: block;
+      width: 18px;
+      height: 2px;
+      background-color: #f5f5f5;
+      -webkit-border-radius: 1px;
+          -moz-border-radius: 1px;
+           border-radius: 1px;
+    -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+          -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+           box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    margin-top:3px;
+    behavior: url(/sites/all/themes/mysubthemename/PIE.htc);
+}
+.* + html .menu-toggle .line {
+      display: block;
+      width: 18px;
+      height: 2px;
+     background-color: #f5f5f5;
+      -webkit-border-radius: 1px;
+         -moz-border-radius: 1px;
+          border-radius: 1px;
+      -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+         -moz-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    margin-top:3px;
+    position:absolute;
+    behavior: url(/sites/all/themes/mysubthemename/PIE.htc);
+}
+div.region-menu #menu-navigation {
+     background: #444444;
+     display: none;
+     padding-bottom: 10px;
+     position:absolute;
+     z-index:10000;
+      width:70%;
+      left:30%;
+      opacity:0.90;
+}
+div.region-menu #menu-navigation ul {
+    position:static;
+    width:auto;
+    display:block;
+    padding:0;
+    margin:0;
+}
+div.region-menu #menu-navigation {
+      display: none;
+}
+div.region-menu #menu-navigation li a {
+    text-decoration:none;
+    display:block;
+    color:#ffffff;
+    padding-left:5px;
+    font-size:1.5em;
+}
+div.region-menu #menu-navigation li a:hover {
+    color: #C0D3DC;
+}
+div.region-menu #menu-navigation li {
+    margin-right:0;
+    padding:0;
+    list-style:none;
+    list-style-image:none;
+    display:inline-block;
+    width:100%;
+}
+div.region-menu #menu-navigation ul li a {
+    padding-left:10px;
+}
+div.region-menu #menu-navigation li ul li a:before {
+        content: "\00BB \0020";
+  }
+div.region-menu #menu-navigation li a.active {
+    background:#034462;
+    border:1px solid #ffffff;
+}
