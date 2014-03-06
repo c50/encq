@@ -87,6 +87,7 @@ div.region-menu #menu-navigation li a:hover a {
 div.region-menu #menu-navigation li ul {
     display: none;
     margin: 0px;
+    width: 100%;
     background: lightCyan;
     padding: 10px 20px 10px 10px;
     overflow: hidden;
