@@ -6,6 +6,9 @@
 div #wrap{z-index:auto !important;margin-bottom:20px;}
 #wrap div.mousetrap{z-index:100 !important;}
 
+/* background header */
+div#zone-branding-wrapper
+{background-color: rgba(253, 252, 252, 0.81);}
 
 /* text styles */
 body {
