@@ -9,13 +9,15 @@ div #wrap{z-index:auto !important;margin-bottom:20px;}
 /* background header */
 div#zone-branding-wrapper
 {background-color: rgba(253, 252, 252, 0.81);}
+div.branding-data {margin-bottom: 2em;}
+
 
 /* text styles */
 body {
   font: 13px/1.5 Verdana, Helvetica, Arial, sans-serif;
 }
 
-h1.site-name {
+h1.site-name, h1.sitename a, h2.site-name, h2.site-name a  {
 font-style: normal;
 font-variant: normal;
 font-weight: normal;
@@ -170,3 +172,7 @@ div.region-menu #menu-navigation li a.active {
     background:#034462;
     border:1px solid #ffffff;
 }
+
+/* END NAVIGATION */
+
+
