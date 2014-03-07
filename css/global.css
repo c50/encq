@@ -52,7 +52,7 @@ h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.ti
 p {font-family: "ff-ernestine-web-pro", serif;}
 
 /* logo */
-img#logo {margin:1em 0;}
+img#logo {margin:1em 0;max-width: 4em;}
 
 /* semi transparent background, #main for maintenance screen */
 div#zone-content-wrapper, div#main {background-color: rgba(255, 255, 255, 0.48);}
