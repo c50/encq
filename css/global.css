@@ -43,7 +43,7 @@ a:active {
 
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
-  font-family: Tahoma, Geneva, sans-serif;
+  font-family: "freight-micro-pro", serif;
 }
 
 h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.title, h2#node-title.title {

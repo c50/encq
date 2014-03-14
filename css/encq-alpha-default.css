@@ -22,12 +22,12 @@ div.region-menu #menu-navigation {
       position:relative;
       z-index:inherit;
       opacity:1;
-    text-align: left;
-        font-size: 0;
+      text-align: left;
+      font-size: 0;
 }
 div.region-menu #menu-navigation li a.active {
-    background:#034462;
-    border:1px solid #ffffff;
+    background: #ffffff;
+    border:0px solid rgb(137, 130, 24);
 }
 div.region-menu #menu-navigation, div.region-menu #menu-navigation li, div.region-menu #menu-navigation ul, div.region-menu #menu-navigation a {
     padding: 0px;
@@ -47,23 +47,23 @@ div.region-menu #menu-navigation li:first-child a {
 }
 div.region-menu #menu-navigation li.active-trail {
     text-decoration: none;
-    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);
+    /*text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);*/
 }
 div.region-menu #menu-navigation li.active-trail a {
     font-weight: normal;
-    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);
-    border:1px solid #ffffff;
+    /*text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);*/
+    border:0px solid #ffffff;
 }
 div.region-menu #menu-navigation li a {
     display: block;
     cursor: pointer;
-    text-shadow: 1px 1px 1px #555555;
+    /*text-shadow: 1px 1px 1px #555555;*/
     letter-spacing: -0.75px;
-    color: white;
-    border: 1px solid #226889;
-    font-family: Ubuntu, sans-serif;
+    color: rgb(137, 130, 24);
+    border: 0px solid #ffffff;
+    font-family: "freight-micro-pro", serif;;
     height: 24px;
-    font-size: 1.35714em;
+    font-size: 1.8em;
     line-height: 1.26316em;
     padding: 5px 10px 5px 10px;
     margin-left:5px;
@@ -76,13 +76,13 @@ div.region-menu #menu-navigation li a {
 div.region-menu #menu-navigation li a:hover {
     background:none;
     text-decoration: none;
-    color: #C0D3DC;
-    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);
+    color: rgb(206, 195, 37);
+    /*text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);*/
 }
 div.region-menu #menu-navigation li a:hover a {
     color: #713f1d;
     font-weight: normal;
-    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);
+    /*text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);*/
 }
 div.region-menu #menu-navigation li ul {
     display: none;
@@ -129,8 +129,8 @@ div.region-menu #menu-navigation li ul li a {
     padding: 0px;
     margin: 0px;
     background: none !important;
-    font-size: 14px;
-    color: #713f1d;
+    font-size: 20px;
+    color: #ffffff;
     background: none;
     border: none;
     text-shadow: none;
@@ -139,7 +139,7 @@ div.region-menu #menu-navigation li ul li a {
     text-shadow: none;
 }
 div.region-menu #menu-navigation li ul li a:hover {
-    color: #015a94;
+    color: #ffffff;
     background: none;
 }
 div.region-menu #menu-navigation ul {
