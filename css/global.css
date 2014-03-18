@@ -57,7 +57,8 @@ p {font-family: "ff-ernestine-web-pro", serif;}
 img#logo {margin:1em 0;max-width: 4em;}
 
 /* semi transparent background, #main for maintenance screen */
-div#zone-content-wrapper, div#main {background-color: rgba(255, 255, 255, 0.48);}
+div#zone-content, div#main {background-color: rgba(255, 255, 255, 0.48);}
+
 
 /*****************************************************************************************
  *****                            TOGGLE  NAVIGATION                                                              *****
@@ -174,5 +175,10 @@ div.region-menu #menu-navigation li a.active {
 }
 
 /* END NAVIGATION */
+
+/* SIDEBAR SECOND  */
+li#neverDie {
+};
+
 
 
