@@ -195,25 +195,30 @@ li#neverDie {
 };
 
 /* Isotope */
+
+div.isotope-element.beautiful-people.isotope-item {
+  max-width:100px;
+}
+
 .isotope-element {
-  width: 420px;
-  height: 420px;
-  margin: 10px 10px;
+  width: 100px !important;
+  height: 100px !important;
+  margin: 0px 0px !important;
   float: left;
   overflow: hidden;
   position: relative;
-  background: #bebebe;
+  background: transparent;
   color: #fff;
 }
 
 .isotope-element img {
-  max-width: 320px;
+  max-width: 100px !important;
   height:auto;
   margin: 0;
   text-align: center;
 }
 
-.image-tableau {max-width:120px;}
+.image-tableau {max-width:100px;}
 span.field-content {padding-left:.72em;}
 span.field-content a {color:#FCFCFC !important;text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);font-size:180%;}
 span.field-content a:hover {text-decoration:underline;color:#E2EC1D !important;}

@@ -3,7 +3,7 @@
   
   <header>
     <?php print render($title_prefix); ?>
-    <!-- <h2<?php print $title_attributes; ?>><?php print $title?></h2> -->
+    <h2<?php print $title_attributes; ?>><a href="<?php print $node_url ?>" title="<?php print $title ?>"><?php print $title ?></a></h2>
     <?php print render($title_suffix); ?>
   </header>
   
@@ -19,7 +19,7 @@
       print render($content);
     ?>
   </div>
-  
+
   <div class="clearfix">
     <?php if (!empty($content['links'])): ?>
       <nav class="links node-links clearfix"><?php print render($content['links']); ?></nav>

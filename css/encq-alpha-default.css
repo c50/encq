@@ -172,19 +172,24 @@ li#neverDie {
 };
 
 /* Isotope */
+
+div.isotope-element.beautiful-people.isotope-item {
+  max-width:100px;
+}
+
 .isotope-element {
-  width: 220px;
-  height: 220px;
-  margin: 10px 10px;
+  width: 100px !important;
+  height: 100px !important;
+  margin: 1em 2px !important;
   float: left;
   overflow: hidden;
   position: relative;
-  background: #bebebe;
+  background: transparent;
   color: #fff;
 }
 
 .isotope-element img {
-  width: 220px;
+  width: 100px !important;
   margin: 0 auto;
   text-align: center;
 }
