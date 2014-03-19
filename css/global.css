@@ -55,6 +55,9 @@ h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.ti
 
 p {font-family: "ff-ernestine-web-pro", serif;}
 
+/* node buttons */
+.node-links ul li a, .comment-links ul li a {border-radius: 2px;}
+
 /* logo */
 img#logo {margin:1em 0;max-width: 4em;}
 
