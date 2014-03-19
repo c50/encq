@@ -45,6 +45,7 @@ div.region-menu #menu-navigation li:first-child a {
     margin-left:0;
     margin-right:5px;
 }
+
 div.region-menu #menu-navigation li.active-trail {
     text-decoration: none;
     /*text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.3);*/
@@ -159,6 +160,17 @@ div.region-menu #menu-navigation li.expanded a {
     margin-bottom:15px;
 }
 
+ul.menu-subnavigation {width:auto;right:0 !important;}
+/*div.region-menu #menu-navigation li ul li a {float:right;clear: right;text-align: left;}
+div.region-menu #menu-navigation li ul li a:before {
+        content: "";*/
+  }
+
+
+/* SIDEBAR SECOND  */
+li#neverDie {
+};
+
 /* Isotope */
 .isotope-element {
   width: 220px;
@@ -176,3 +188,5 @@ div.region-menu #menu-navigation li.expanded a {
   margin: 0 auto;
   text-align: center;
 }
+
+span.field-content a {font-size:110%;}
