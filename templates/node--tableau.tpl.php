@@ -3,7 +3,7 @@
   
   <header>
     <?php print render($title_prefix); ?>
-    <h2<?php print $title_attributes; ?>><?php print $title?></h2>
+    <!-- <h2<?php print $title_attributes; ?>><?php print $title?></h2> -->
     <?php print render($title_suffix); ?>
   </header>
   

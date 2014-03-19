@@ -61,7 +61,7 @@ div.region-menu #menu-navigation li a {
     letter-spacing: -0.75px;
     color: rgb(137, 130, 24);
     border: 0px solid #ffffff;
-    font-family: "freight-micro-pro", serif;;
+    font-family: "freight-micro-pro", serif;
     height: 24px;
     font-size: 1.8em;
     line-height: 1.26316em;
@@ -157,4 +157,22 @@ div.region-menu #menu-navigation li ul li:last-child a {
 }
 div.region-menu #menu-navigation li.expanded a {
     margin-bottom:15px;
+}
+
+/* Isotope */
+.isotope-element {
+  width: 220px;
+  height: 220px;
+  margin: 10px 10px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  background: #bebebe;
+  color: #fff;
+}
+
+.isotope-element img {
+  width: 220px;
+  margin: 0 auto;
+  text-align: center;
 }
