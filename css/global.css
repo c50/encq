@@ -196,6 +196,11 @@ li#neverDie {
 
 /* Isotope */
 
+ul.isotope-filters.option-set.clearfix {
+  list-style: none !important;
+  margin: 0;
+}
+
 div.isotope-element.beautiful-people.isotope-item {
   max-width:100px;
 }
@@ -203,7 +208,7 @@ div.isotope-element.beautiful-people.isotope-item {
 .isotope-element {
   width: 100px !important;
   height: 100px !important;
-  margin: 0px 0px !important;
+  margin: 0px 0px 1em !important;
   float: left;
   overflow: hidden;
   position: relative;
@@ -218,8 +223,13 @@ div.isotope-element.beautiful-people.isotope-item {
   text-align: center;
 }
 
+ul.isotope-filters {
+  list-style: none !important;
+  margin: 0;
+}
+
 .image-tableau {max-width:100px;}
-span.field-content {padding-left:.72em;}
+span.field-content {padding-left:.72em;padding-bottom: .72em;}
 span.field-content a {color:#FCFCFC !important;text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);font-size:180%;}
 span.field-content a:hover {text-decoration:underline;color:#E2EC1D !important;}
 

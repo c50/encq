@@ -194,4 +194,17 @@ div.isotope-element.beautiful-people.isotope-item {
   text-align: center;
 }
 
+ul.isotope-filters {
+  list-style: none !important;
+  margin: 0;
+}
+ul.isotope-filters li {
+  display: inline-block;
+  padding: 0 .3em .2em;  
+}
+
+a:hover.filterbutton {
+    color: #ffffff;
+}
+
 span.field-content a {font-size:110%;}
