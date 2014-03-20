@@ -34,7 +34,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #dddddd;
+  color: #E4A21A;
   text-decoration: none;
 }
 
@@ -51,6 +51,8 @@ h1, h2, h3, h4, h5, h6 {
 h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.title, h2#node-title.title {
 	font-family: "freight-micro-pro", serif;
 	color: #ffffff;
+  font-size: 48px;
+  line-height: 1em;
 } 
 
 p {font-family: "ff-ernestine-web-pro", serif;}
@@ -229,9 +231,14 @@ ul.isotope-filters {
 }
 
 .image-tableau {max-width:100px;}
-span.field-content {padding-left:.72em;padding-bottom: .72em;}
+span.field-content {padding-left:.72em;padding-bottom: 0em;}
 span.field-content a {color:#FCFCFC !important;text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.2);font-size:180%;}
-span.field-content a:hover {text-decoration:underline;color:#E2EC1D !important;}
+span.filterbutton a:hover {text-decoration:underline;color:#E2EC1D !important;}
+
+.node-type-tableau h1#page-title {display: none;}
+
+img.image-thumbnail{margin-top: -1em;}
+img:hover.image-thumbnail{min-width: 120% !important;min-height:120%;}
 
 
 

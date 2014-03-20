@@ -1,4 +1,7 @@
 /* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+
+
 /*****************************************************************************************
  *****                              DROP DOWN NAVIGATION                                                       *****
  *****************************************************************************************/
@@ -203,8 +206,7 @@ ul.isotope-filters li {
   padding: 0 .3em .2em;  
 }
 
-a:hover.filterbutton {
-    color: #ffffff;
-}
-
 span.field-content a {font-size:110%;}
+
+img.image-thumbnail{margin-top: -1em;}
+img:hover.image-thumbnail{min-width: 120% !important;min-height:120%;}
