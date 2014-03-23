@@ -55,7 +55,11 @@ h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.ti
   line-height: 1em;
 } 
 
+h2.block-title {color: #ffffff;}
+
 p {font-family: "ff-ernestine-web-pro", serif;}
+
+hr {background: #AF992F;}
 
 /* node buttons */
 .node-links ul li a, .comment-links ul li a {border-radius: 2px;}
