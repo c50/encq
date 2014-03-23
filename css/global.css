@@ -70,6 +70,27 @@ div#zone-content, div#main {
   margin-top: -2px;
 }
 
+/* paging */
+.pager li.pager-first a,
+.pager li.pager-previous a,
+.pager li.pager-next a,
+.pager li.pager-last a {
+  width: auto;
+  text-align:center;
+  padding: 4px;
+}
+
+/* decor */
+ul#decor {
+  list-style: none;
+}
+
+li#copy {
+  margin-top: 2em;
+  padding-left: 2em;
+  font-size: 80%
+}
+
 
 /*****************************************************************************************
  *****                            TOGGLE  NAVIGATION                                                              *****
