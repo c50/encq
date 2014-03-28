@@ -55,6 +55,13 @@ h1.page-title, h2.node-title, h1.page-title a, h2.node-title a, h1#page-title.ti
   line-height: 1em;
 } 
 
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+h1.site-name,
+h2.site-name {
+  font-size: 36px;
+  margin-top: 2px;
+  }
+
 h2.block-title {color: #ffffff;}
 
 p {font-family: "ff-ernestine-web-pro", serif;}
