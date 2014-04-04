@@ -43,6 +43,16 @@ a:active {
   text-decoration: none;
 }
 
+a.discreet {
+  color: #E9E7DD;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+a:hover.discreet {
+  color: #C98C52;
+}
+
 h1, h2, h3, h4, h5, h6 {
   letter-spacing: -0.05em;
   font-family: "freight-micro-pro", serif;
