@@ -6,7 +6,7 @@
 
 <meta name="description" lang="fr" content="Peintre bruxellois passionné par l'humain">
 <meta name="description" lang="nl" content="Brussels schilder gefascineerd door de mens ">
-<meta name="description" lang="en" content="Brussels painter fascibated by human">
+<meta name="description" lang="en" content="Brussels painter fascinated by human">
 
 <meta name="keywords" content="encq, artiste peintre, tableau acrylique, atelier de peinture Bruxelles">
 <meta name="author" content="Eric Lemonne, C50 Dynamic Design">
