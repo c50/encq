@@ -99,6 +99,12 @@ div#zone-content, div#main {
   margin-top: -2px;
 }
 
+/* language switcher */
+
+ul.language-switcher-locale-session {list-style: none;}
+.language-switcher-locale-session a {color:rgb(96,96,96) !important;}
+.language-switcher-locale-session a.active {color:#ffffff !important;}
+
 /* paging */
 .pager li.pager-first a,
 .pager li.pager-previous a,
