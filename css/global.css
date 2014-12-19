@@ -23,7 +23,7 @@ font-variant: normal;
 font-weight: normal;
 font-size: 43px;
 line-height: 1.4em;
-font-family: tahoma;
+font-family: tahoma, serif;
 }
 
 a.site-name {font-size: 50px;}
@@ -183,7 +183,7 @@ a.menu-toggle {
     margin-top:3px;
     behavior: url(/sites/all/libraries/PIE/PIE.php);
 }
-.* + html .menu-toggle .line {
+* + html .menu-toggle .line {
       display: block;
       width: 18px;
       height: 2px;
@@ -257,7 +257,7 @@ li#neverDie {
   bottom: 0;
 -webkit-transform:rotate(270deg);*/
   list-style-image: none;
-};
+}
 
 /* Isotope */
 
